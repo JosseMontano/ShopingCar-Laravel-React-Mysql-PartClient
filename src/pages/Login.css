@@ -1,0 +1,32 @@
+.bodyLogin{
+  position: relative;
+  top:0;
+  left: 0;
+  height: 100vh;
+  background-image: url('../assets/Login/hospital.jpg');
+  }
+ 
+  .sesion{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   place-content: center;
+   background-color: #fff;
+   padding: 20px;
+  }
+  .sesion h2{
+    text-align: center;
+  }
+  .sesion .input{
+ border: none;
+ border-bottom: 3px solid var(--green);
+ margin-left: 20px;
+  }
+  .sesion .margin{
+    margin-left: 5px;
+  }
+.titleSesion{
+  color: var(--green);
+  font-size: 40px;
+}

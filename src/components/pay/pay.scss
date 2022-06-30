@@ -1,0 +1,44 @@
+
+.containerPay{
+    margin-top: 30px;
+}
+.cardPay{
+  background:#16181a;  border-radius:14px; max-width: 300px; display:block; margin:auto;
+  padding:60px; padding-left:20px; padding-right:20px;box-shadow: 2px 10px 40px black; z-index:99;
+}
+
+.containerPay .logo-card{max-width:50px; margin-bottom:15px; margin-top: -19px; 
+
+}
+
+.containerPay label{display:flex; font-size:10px; color:white; opacity:.4;}
+
+.containerPay input{font-family: 'Work Sans', sans-serif;background:transparent; border:none; border-bottom:1px solid transparent; color:#dbdce0; transition: border-bottom .4s;}
+.containerPay input:focus{border-bottom:1px solid #1abc9c; outline:none;}
+
+.containerPay .cardnumber{display:block; font-size:20px; margin-bottom:8px; }
+
+.containerPay .name{display:block; font-size:15px; max-width: 200px; float:left; margin-bottom:15px;}
+
+.containerPay .toleft{float:left;}
+.containerPay .ccv{width:50px; margin-top:-5px; font-size:15px;}
+
+.containerPay .receipt{background: #dbdce0; border-radius:4px; padding:5%; padding-top:200px; max-width:600px; display:block; margin:auto; margin-top:-180px; z-index:-999; position:relative;}
+
+.containerPay .col{width:50%; float:left;}
+.containerPay .bought-item{background:#f5f5f5; padding:2px;}
+.containerPay .bought-items{margin-top:-3px;}
+
+.containerPay .cost{color:#3a7bd5;}
+.containerPay .seller{color: #3a7bd5;}
+.containerPay .description{font-size: 13px;}
+.containerPay .price{font-size:12px;}
+.containerPay .proceed{position:absolute; transform:translate(300px, 10px); width:50px; height:50px; border-radius:50%; background:#1abc9c; border:none;color:white; transition: box-shadow .2s, transform .4s; cursor:pointer;}
+.containerPay .proceed:active{outline:none; }
+.containerPay .proceed:focus{outline:none;box-shadow: inset 0px 0px 5px white;}
+.containerPay .sendicon{filter:invert(100%); padding-top:2px;}
+
+@media (max-width: 600px){
+    .containerPay .proceed{transform:translate(250px, 10px);}
+    .containerPay  .col{display:block; margin:auto; width:100%; text-align:center;}
+}
